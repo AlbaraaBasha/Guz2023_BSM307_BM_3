@@ -1,0 +1,42 @@
+/* NewConversationModal.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.modal-header {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+.btn-create {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-create:hover {
+    background-color: #45a049;
+}
+
+/* Add more styles as needed */
